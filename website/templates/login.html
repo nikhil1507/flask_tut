@@ -1,0 +1,17 @@
+{%extends 'base.html'%}
+{%block title%}Login{%endblock%}
+{%block content%}
+<form method="POST">
+    <h3 align='center'>Login</h3>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" class="form-control" placeholder="enter email" name="email"/>
+    </div>
+    
+    <div style="margin-top: 10px;" class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" class="form-control" placeholder="enter password" name="password"/>
+    </div>
+    <button style="margin: 10px;" type="submit" class="btn btn-primary">Submit</button>
+    </form>
+{%endblock%}
